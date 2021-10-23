@@ -1,0 +1,747 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x:  hidden;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px gray;
+}
+.menu > a:hover{
+    text-decoration: underline;
+}
+.btn-1:hover{
+    background-color: white;
+    border: 1px solid rgb(112, 28, 209);
+    color: black;
+}
+.btn-6:hover{
+    color: white;
+    background-color:rgb(112, 28, 209) ;
+}
+.btn-7:hover{
+    color: white;
+    background-color:rgb(112, 28, 209) ;
+}
+.btn-8:hover{
+    color: white;
+    background-color:rgb(112, 28, 209) ;
+}
+.btn-2:hover{
+    background-color: white;
+    border: 1px solid rgb(112, 28, 209);;
+    color: black;
+}
+.menu-btn{
+    display: none;
+}
+nav > .menu-btn > span{
+    background-color:rgb(177, 81, 81);
+}
+.menu > a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+nav > .menu > a:hover{
+    text-decoration: underline;
+}
+nav > .logo{
+    display: flex;
+}
+.menu > h4{
+    margin-right: 15px;
+}
+nav > .menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > .menu > a{
+    margin: 20px;
+    color: rgb(112, 28, 209);
+    text-decoration: none;
+}
+nav > .menu > div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: orange;
+}
+nav > .btn-1{
+    transition: all 0.4s;
+    width: 150px;
+    height: 50px;
+    border-radius:30px ;
+    background-color: rgb(112, 28, 209);
+    color: white;
+    border: none;
+}
+.rectangle{
+    z-index: -1000;
+    width: 1376.03px;
+    height: 767.91px;
+    border-radius:99px ;
+    background-color: #ffeaa7;
+    top: -350px;
+    left: 575px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.content-1{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.content-1 > .teddy{
+    height: 250px;
+    position: absolute;
+    margin-left: 428px;
+    margin-top: -45px;
+}
+.content-1 > h1{
+    font-size: 80px;
+}
+.content-1 > h2{
+    margin-top: -50px;
+    font-size: 60px;
+}
+.content-1  span{
+    color: red;
+    text-shadow:  0px 4px 0px #FFFFFF;
+}
+.cicle{
+    z-index: -1000;
+    width: 175px;
+    height: 55px;
+    background-color: aquamarine;
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 555px;
+    margin-top: -45px;
+}
+.content-2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.info-1{
+    width: 250px;
+    height: 500px;
+    margin-right: -90px;
+}
+.btn-2{
+    transition: all 0.4s;
+    font-size: 25px;
+    width: 250px;
+    height: 65px;
+    color: white;
+    background-color:rgb(112, 28, 209) ;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.info-2{
+    display: flex;
+}
+.card-0{
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    background-image: url(Card\ 10.svg);
+    background-size: cover;
+}
+.card-0 > h3{
+    
+    color:white;
+    text-shadow: 0px 4px 0px #000000;
+    background-color: rgba(255, 255, 255, 0.438);
+    transition: all 0.4s;
+    display: flex;
+    align-items: flex-start;
+    opacity: 0;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0;
+    height: 450px;
+    width: 100%;
+    border-radius: 18px;
+}
+.card-0 > h3:hover{
+    opacity: 1;
+}
+.card-1{
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 400px;
+    height: 380px;
+    background-image: url(🗻\ Simple.svg);
+    background-size: cover;
+}
+.card-1 > h1{
+    color:white;
+    text-shadow: 0px 4px 0px #000000;
+    background-color: rgba(255, 255, 255, 0.438);
+    transition: all 0.4s;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin: 0;
+    height: 360px;
+    width: 100%;
+    border-radius: 18px;
+}
+.card-1 > h1:hover{opacity: 1;
+}
+.card-2{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.info-3{
+   margin-top: 20px;
+}
+.content-2-1{
+   margin-top: 610px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 900px;
+}
+.card-4 > img{
+    width: 200px;
+    height: 200px;
+}
+ .card-5{
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 280px;
+    height: 280px;
+    background-image: url(🗻\ Simple1.svg);
+    background-size: cover;
+} 
+.card-5> h1{
+    background-color: rgba(255, 255, 255, 0.438);
+    transition: all 0.4s;
+    display: flex;
+    align-items: flex-start;
+    opacity: 0;
+    justify-content: center;
+    text-shadow: 0px 4px 0px #000000;
+    padding-left: 10px;
+    margin: 0;
+    height: 280px;
+    width: 100%;
+    border-radius: 18px;
+    color: white;
+}
+.card-5 > h1:hover{
+    opacity: 1;
+}
+.info-4{
+    margin-top: -205px;
+    margin-left: 220px;
+}
+.info-5{
+    margin-left: 520px;
+    margin-top: -280px;
+}
+.content-3{
+    margin-top: 300px;
+    width: 100%;
+    height: 500px;
+
+}
+.content-3 > h2{
+    
+    margin-left: 100px;
+}
+.content-3 > h3{
+    margin-left: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stall{
+    width: 300px;
+    height: 400px;
+}
+.stall > h2{
+    margin-top: -20px;
+}
+.stall > img{
+    margin-bottom: 30px;
+}
+.btn-6{
+    transition: all 0.4s;
+    font-size: 20px;
+    color:rgb(112, 28, 209) ;
+    width: 145px;
+    height: 45px;
+    border: none;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius:10px ;
+}
+.btn-7{
+    transition: all 0.4s;
+    font-size: 20px;
+    color:rgb(112, 28, 209) ;
+    width: 145px;
+    height: 45px;
+    border: none;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius:10px ;
+}
+.btn-8{
+    transition: all 0.4s;
+    font-size: 20px;
+    color:rgb(112, 28, 209) ;
+    width: 145px;
+    height: 45px;
+    border: none;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius:10px ;
+}
+.kkk{
+    display: flex;
+}
+.aaa{
+    display: flex;
+}
+.info-6{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 60px;
+
+    align-items: center;
+}
+.content-4{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+.content-4 > h1{
+    font-size: 50px;
+}
+.content-4 > h2{
+    color: gray;
+}
+.content-4 > h2 > span{
+    color: #6C5CE7;
+}
+.object{
+    border-radius: 30px;
+    z-index: -1;
+    height: 9px;
+    width: 100px;
+    position: absolute;
+    margin-top: -10px;
+    background-color: #FDCB6E;
+    margin-left: 560px;
+}
+.pillar{
+    margin-left: -650px;
+    position: absolute;
+    margin-right: 20px;
+    text-align: start;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.pillar > h4{
+    color: #6C5CE7 ;
+}
+.pillar-0{
+    display: flex;
+}
+.pillar > .btn-6{
+    margin-top: 165px;
+    text-align: center;
+    width: 250px;
+}
+.pillar-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px grey ;
+    width: 320px;
+    height: 550px;
+    margin-top: 20px;
+    background-color: white;
+}
+.pillar-1 > h4{
+    margin-left: 5px;
+    color: #6C5CE7 ;
+}
+.pillar-1 > .btn-2{
+    margin-left: 30px;
+    font-size: 20px;
+    border-radius: 10px !important;
+    height: 48px !important;
+}
+.pillar-2{
+    position: absolute;
+    margin-left: 650px;
+    text-align: start;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.pillar-2 > .btn-6{
+    margin-top: 98px;
+    text-align: center;
+    width: 280px;
+}
+.pillar-2 > h4{
+    color: #6C5CE7 ;
+}
+.info-7{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.info-7 > .eee{
+    position:absolute;
+    margin-top: 500px;
+    margin-left: -120px; 
+    z-index:-1 ;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+.info-8{
+    display: flex;
+    justify-content: space-around;
+}
+footer > .info-8 > .links-1 > h5{
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: grey;
+}
+.email > h5{
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: grey;
+}
+.email > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6C5CE7 ;
+    font-size: 32px;
+}
+.links-2{
+    margin-top: 30px;
+    display: flex;
+}
+.pillar-5{
+    display: flex;
+    flex-direction: column;
+}
+.pillar-6{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.pillar-7{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.links-2 > .pillar-5 > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.links-2 > .pillar-6 > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.links-2 > .pillar-7 > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.info-9{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.email-2{
+    margin-left: 50px;
+}
+.email-2 > h4{
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: grey;
+}
+.inputs > input{
+    color: #2D3436;
+    border: none;
+    text-align:start;
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: lightgrey;
+}
+.email-3{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 450px;
+}
+.email-3 > input{
+    border: none;
+    border: 1px grey solid;
+    border-radius: 10px;
+    text-align:left;
+    width: 200px;
+    height: 70px;
+}
+.email-3 > .btn-2{
+    border-radius: 10px;
+    width: 150px;
+    text-shadow: 0px 2px 4px black;
+}
+footer > h3{
+    display: none;
+}
+    footer > .info-9 > .links-2 > .pillar-5 > a:hover{
+        text-decoration: underline;
+    }
+    footer > .info-9 > .links-2 > .pillar-6 > a:hover{
+        text-decoration: underline;
+    }
+    footer > .info-9 > .links-2 > .pillar-7 > a:hover{
+        text-decoration: underline;
+    }
+@media(max-width:992px){
+    .menu > a{
+        color: black;
+    }
+    nav > .menu > a:hover{text-decoration: underline;
+    }
+    .menu{
+        display: unset;
+    }
+    .menu-btn{
+        display: unset;
+    }
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 1000;
+        overflow: hidden;
+      }
+      
+      .menu-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(145, 87, 87);
+        transition: all 0.5s;
+      }
+      
+      .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+      }
+      
+      .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+      }
+      .menu {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        padding: 15px;
+        background-color: white;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+        display: flex;
+        flex-direction: column;
+      }
+      .menu > a{
+          margin-top: 30px;
+      }
+      .menu > .btn-1{
+          margin-top: 30px;
+      }
+      .menu.active {
+        transform: translateX(0);
+      }
+      
+      .menu-btn.active span:first-of-type {
+        transform: translateX(100%);
+      }
+      
+      .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      
+      .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      
+}
+@media(max-width:992px){
+    nav{
+        width: 100vw;
+    }
+    .content-1{
+        width: 100%;
+    }
+    .content-2{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .rectangle{
+        display: none;
+    }
+    .teddy{
+       display: none;
+    }
+    .cicle{
+        margin-left: 100px;
+    }
+    .card-1{
+        width:300px;
+        height: 300px;
+        margin-left: 130px;
+    }
+    .card-2{
+        display: none;
+    }
+    .card-4{
+        display: none;
+    }
+    .info-1{
+        margin-top: 300px;
+        margin-left: -200px;
+    }
+    .info-1 > h4{
+        display: none;
+    }
+    .info-5{
+        display: none;
+    }
+    .card-5{
+        margin-left: -90px;
+        margin-top: 200px;
+    }
+    .content-3{
+        margin-top:300px;
+        margin-bottom: 400px;
+    }
+    .content-3 > h3{
+        display: none;
+    }
+    .content-3 > h2{
+        margin-left:20px ;
+    }
+    .info-6{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .stall{
+        width: 190px;
+    }
+    .stall > h4 > span{
+        display: none;
+    }
+    .kkk > .stall > .btn-6{
+        margin-top: 16px;
+    }
+    .aaa > .stall > .btn-8{
+        margin-top:14px;
+    }
+    .pillar{
+        margin-left: 30px;
+    }
+    .pillar > button{
+        margin-left: 30px;
+    }
+    .pillar-1{
+        margin-top: 550px;
+        margin-left: 30px;
+    }
+    .pillar-2{
+        margin-top: 1100px;
+        margin-left: 10px;
+    }
+    .pillar-2 > button{
+        margin-left: 25px;
+    }
+    .eee{
+        display: none;
+    }
+    .object{
+        margin-left: 133px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1050px;
+    }
+    input{
+        display: none;
+    }
+    .info-8{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-9{
+        display: none;
+    }
+    .email > h5{
+        display: none;
+    }
+    .email > a{
+        margin-left: 30px;
+    }
+    .email-3 > .btn-2{
+        display: none;
+    }
+    footer > h3{
+        text-align: center;
+        display: unset;
+    }
+    
+}
